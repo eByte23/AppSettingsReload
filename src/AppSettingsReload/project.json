@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1-*",
+    "version": "0.0.2-*",
     "authors": [ "ebyte23" ],
     "description": "Enables appsettings reload onchange also drop dependency on IOptions<T>",
     "title": "AppSettingsReload",
@@ -13,7 +13,8 @@
         "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
         "Microsoft.Extensions.Configuration.Binder": "1.0.0",
         "System.IO.FileSystem.Watcher": "4.0.0",
-        "System.IO.FileSystem": "4.0.1"
+        "System.IO.FileSystem": "4.0.1",
+        "Microsoft.AspNetCore.Http.Abstractions": "1.0.0"
     },
 
     "frameworks": {

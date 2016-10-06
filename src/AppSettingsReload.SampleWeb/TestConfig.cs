@@ -7,6 +7,6 @@ namespace AppSettingsReload.SampleWeb
 {
     public class TestConfig
     {
-        public string SettingName { get; set; }
+        public List<string> SettingNames { get; set; }
     }
 }
